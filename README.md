@@ -47,7 +47,14 @@ Options: `--language hi-IN`, `--speaker shubh_en_narration`, `--model bulbul:v3`
 python merge_video_audio/merge.py recording_31.mp4 output/recording_31/timeline.csv
 ```
 
-Each clip starts at its script timestamp. A clip that runs into the next line is
+If one video holds several recordings back to back, pass each recording's timeline
+with `@` and the time that recording starts in the video:
+
+```
+python merge_video_audio/merge.py full_video.mp4 output/recording_31/timeline.csv@0:00 output/recording_33/timeline.csv@19:05 output/recording_34/timeline.csv@30:10 output/recording_35/timeline.csv@32:40
+```
+
+Each clip starts at its script timestamp (plus its recording's start time). A clip that runs into the next line is
 sped up, at most 1.3x by default (`--max-speedup`), and a warning is printed if
 it still doesn't fit. The video is copied as-is and the narration replaces the
 original audio. Output: `recording_31_narrated.mp4` next to the video.
