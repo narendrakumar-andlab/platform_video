@@ -1,12 +1,12 @@
-# Standard recording 34 (from the Word transcription)
-# Format: MM:SS | text to speak
-00:03 | Allows to compete in the report assembly, the trooper at technology.
-00:29 | Can be a modular name.
-00:31 | With the GSM K8.
-00:36 | And.
-00:38 | 15.
-01:02 | License Approved. Team Particular member.
-01:10 | Just give us three district.
-01:12 | Police taxes or governance approval, We.
-01:17 | Staging stage may approach the.
-01:20 | Play mainstream Navadia music in boxing. Happy to CJ. License pending for recouping.
+# Standard recording 34
+# Format: MM:SS | text to speak. [silent] = no voice-over at that point.
+00:03 | [silent]
+00:29 | Enter the model name.
+00:31 | [silent]
+00:36 | [silent]
+00:38 | [silent]
+01:02 | The license is approved by a team member.
+01:10 | [silent]
+01:12 | It also needs governance approval.
+01:17 | Then it moves to staging.
+01:20 | The license is now pending approval.

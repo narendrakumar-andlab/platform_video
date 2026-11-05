@@ -1,7 +1,8 @@
 """Turn a timestamped script into one Sarvam TTS clip per line.
 
-Script format (one line per cue, '#' lines are comments):
+Script format (one line per cue, '#' lines are comments, [silent] = no voice-over):
     00:03 | I'm starting the event.
+    00:29 | [silent]
     01:06 | Now we move to the ingestion service.
 
 Writes <out>/NNN_<seconds>_<hash>.wav for each line plus <out>/timeline.csv,
@@ -50,7 +51,8 @@ def read_script(path):
         m = CUE.match(raw)
         if not m:
             sys.exit(f"{path}:{n}: expected 'MM:SS | text', got: {raw!r}")
-        cues.append((to_seconds(m[1]), m[2]))
+        if m[2].lower() != "[silent]":  # [silent] marks a stretch with no voice-over
+            cues.append((to_seconds(m[1]), m[2]))
     return sorted(cues, key=lambda c: c[0])
 
 

@@ -1,113 +1,113 @@
-# Standard recording 31 (from the Word transcription)
-# Format: MM:SS | text to speak
-00:03 | I'm starting the event, and it's interesting.
-00:08 | The first people to inject urgently ingest the data from the source.
-00:15 | Show health connections.
-00:17 | Surface. First, we want to add a new song.
-00:29 | Search messages.
-00:32 | FCC, said the other statement.
-00:36 | The third Starbucks menu.
-01:06 | Now, I also told you about it.
-01:18 | So this is your source, especially with.
-01:22 | Now listening.
-01:26 | Canada's, Michigan.
-01:29 | Additionally, I can't play it.
-01:32 | Listen to it.
-01:38 | I don't need a quiet.
-01:48 | Noise location.
-01:58 | Add Wilbur to Telugu album songs.
-02:11 | Clear Commission after creating the machine.
-02:14 | Will I sing this song?
-02:42 | Where older was, I feel used to this balloon in her deviation.
-02:47 | When is the menu ready?
-02:48 | Uh, Telugu introduces to London terrace.
-03:10 | Datasets, we need to go through the ingestion service.
-03:18 | After that, we had the destination in Sodium Angle Car.
-03:26 | And the second part, right now, the EMT.
-03:42 | What do you do?
-03:49 | No image, Python money, new Python.
-03:56 | Google School of Want a new pipeline?
-04:03 | Tell me a joke.
-04:06 | Listening to Beat.
-04:56 | Play "Heavy" by NFL 4 News.
-05:02 | And will be like the old song.
-05:05 | IPhone of ULT.
-05:12 | I have already written 6.
-05:16 | Copy and playlist.
-05:19 | Can you hear me? I want to address the connection ID issue, from the disconnection to the raw data.
+# Standard recording 31
+# Format: MM:SS | text to speak. [silent] = no voice-over at that point.
+00:03 | Let's get started with the platform walkthrough.
+00:08 | The first step is to ingest data from the source.
+00:15 | Here are the existing connections.
+00:17 | First, we'll add a new source.
+00:29 | Search for the source type.
+00:32 | [silent]
+00:36 | [silent]
+01:06 | [silent]
+01:18 | So this is our source.
+01:22 | Now let's test the connection.
+01:26 | [silent]
+01:29 | [silent]
+01:32 | [silent]
+01:38 | [silent]
+01:48 | [silent]
+01:58 | [silent]
+02:11 | Once it's set up, we create the connection.
+02:14 | [silent]
+02:42 | [silent]
+02:47 | [silent]
+02:48 | [silent]
+03:10 | For datasets, we go through the ingestion service.
+03:18 | After that, we set the destination.
+03:26 | Now for the second part.
+03:42 | [silent]
+03:49 | Let's create a new pipeline.
+03:56 | [silent]
+04:03 | [silent]
+04:06 | [silent]
+04:56 | [silent]
+05:02 | [silent]
+05:05 | [silent]
+05:12 | [silent]
+05:16 | [silent]
+05:19 | Next, the connection ID. It links the connection to the raw data.
 05:26 | This is the connection ID.
-05:52 | Tune into the lyrics of Tamil.
-06:27 | CCA, the pipeline and the disparities quickly, fast.
-06:32 | And all the top series is bleeding.
-06:36 | Can I see the table?
-07:00 | Call Jennifer.
-07:16 | He serviced the limits here.
-07:28 | Change. Now you're moving to the.
-07:31 | That was What about?
-07:57 | Expectation Digital.
-07:59 | On Digital Express, Hindu finishing hearts when I have telecharged.
-08:15 | Kua 3X space.
-08:39 | After approving the license of prostitutes.
-08:57 | Datasets. Over dubbership in wedding Jayanti Nana.
-09:15 | Catalog and look.
-09:28 | Don't breathe.
-09:32 | They split around the hometown.
-10:04 | Move to Bali in Gandhi Jayanti.
-10:28 | What do you take to?
-10:40 | Vitality, A ministry single. YouTube.
-10:45 | Replay new tablespoon.
-11:20 | There is an umbrella version to India, Virginia, US survey him.
-11:24 | It devastated who used her zip on me.
-11:29 | SMT multi-version Isle, when I arranged this in April, May Day 10th this year.
-11:37 | Review and pipeline checked in Gaddafi's apartment in Maharashtra. Ulta First PM.
-11:43 | Stable candidates in shape.
-12:12 | Add GTA San Andreas.
-12:15 | Bihar on media rising film.
-12:20 | Add to Hanuman Chalisa.
-12:46 | It's too bad in Gandhi, a new.
-12:51 | Open, show me Aniyaz's new job in Anikadi.
-12:55 | Move to Janaki. Time sung.
-12:58 | Movies Kannapolis recipe.
-13:12 | Aaron JoJo kana mini diya hai Ji.
-13:17 | 15, 1515.
-13:24 | Run. What's this matter where they want to create?
-13:32 | OK, have you heard? Have you not only have the model?
-13:44 | 2 minute agent is medium engineer.
-13:49 | Canadian Navy sung. Vikas, Ayrela. Hazmat, Sarah.
-13:55 | Skip.
-14:03 | Show database.
-14:11 | Version one game.
-14:14 | What's the weather like now?
-14:19 | I don't want to throw up.
-14:46 | Play next music to playlist when I go to Brampton.
-14:50 | Customer. After 2 digit 4 season.
-15:21 | 3600 and 1700.
-15:24 | Play Punjabi song.
-15:29 | Did looping Rajya Bhaijaan play?
-15:32 | Unnatural to exclude Virat Kohli with Joe Green. Easily run after Surbhi Akhilesh's activity to live in Islamabad. Who failed for Dikhatani film?
-15:44 | To advance.
-15:48 | CS GO to PS4 points ranks 50.
-15:54 | Replay "Madhura" song. Transfer database.
-15:59 | Jagat and Meraihiki Chaitanya is watching an Indian analysis. First Jason in India, 5850.
-16:11 | Vijay masturbation passes in Manj.
-16:15 | Not when Accenture to GPU, Vana Central to him.
-16:19 | CPG type in.
-16:22 | GSM Control Panel.
-16:27 | Move Theme. Dragon Chakra.
-16:31 | 50% of Jaguar DRI cognitively biasing.
-16:38 | Can you tell me how to use image window?
-16:50 | SC jobs on meeting first to Beta Marathi.
-16:55 | Tune into the seasons of the special Rahi Mali Vektikaram Teen Office Paramaravati Show Engine.
-17:02 | Protestant Rajinikanth cluster.
-17:08 | Deepika jungle arovo CS gender Hanoi judges presentation on me aid kihl jokhi tango.
-17:15 | Watch at Kardashian Kuru Tohkud, Assang Kartik SC Situation to success.
-17:20 | Joker Tank Online.
-17:29 | Jug jobs in Kadir.
-17:33 | A message in line with Sudoku Miley.
-17:36 | Navigate from Hindi after the completion of the door.
-17:39 | Napoleonic graft. CS honeymoon data set.
-17:43 | US training the time or consideration.
-17:50 | Posting this higher facility.
-17:55 | Honey Ajiths 3 UPS Post Village View Scafell analogy queue.
-18:00 | 1st movie. So, how is it actually the second? We have to make the week?
-18:13 | Start again.
+05:52 | [silent]
+06:27 | The pipeline processes the data quickly.
+06:32 | And all the tables are loading.
+06:36 | Let's look at the table.
+07:00 | [silent]
+07:16 | The service limits are shown here.
+07:28 | Now we move on to the next step.
+07:31 | [silent]
+07:57 | [silent]
+07:59 | [silent]
+08:15 | [silent]
+08:39 | Once the license is approved, we can continue.
+08:57 | Now, the datasets.
+09:15 | Here's the catalog.
+09:28 | [silent]
+09:32 | [silent]
+10:04 | [silent]
+10:28 | [silent]
+10:40 | [silent]
+10:45 | [silent]
+11:20 | [silent]
+11:24 | [silent]
+11:29 | This dataset has multiple versions.
+11:37 | Next, we review and check the pipeline.
+11:43 | [silent]
+12:12 | [silent]
+12:15 | [silent]
+12:20 | [silent]
+12:46 | [silent]
+12:51 | [silent]
+12:55 | [silent]
+12:58 | [silent]
+13:12 | [silent]
+13:17 | [silent]
+13:24 | Now let's run it.
+13:32 | [silent]
+13:44 | [silent]
+13:49 | [silent]
+13:55 | We'll skip this step.
+14:03 | Here's the database.
+14:11 | This is version one.
+14:14 | [silent]
+14:19 | [silent]
+14:46 | [silent]
+14:50 | [silent]
+15:21 | [silent]
+15:24 | [silent]
+15:29 | [silent]
+15:32 | [silent]
+15:44 | [silent]
+15:48 | [silent]
+15:54 | [silent]
+15:59 | [silent]
+16:11 | [silent]
+16:15 | [silent]
+16:19 | [silent]
+16:22 | [silent]
+16:27 | [silent]
+16:31 | [silent]
+16:38 | [silent]
+16:50 | [silent]
+16:55 | [silent]
+17:02 | [silent]
+17:08 | [silent]
+17:15 | [silent]
+17:20 | [silent]
+17:29 | [silent]
+17:33 | [silent]
+17:36 | [silent]
+17:39 | [silent]
+17:43 | [silent]
+17:50 | [silent]
+17:55 | [silent]
+18:00 | [silent]
+18:13 | [silent]

@@ -1,10 +1,10 @@
-# Standard recording 33 (from the Word transcription)
-# Format: MM:SS | text to speak
-00:11 | Export.
-00:50 | Tyson.
-00:54 | 8K8K.Qwest.
-01:30 | Source. Source.
-02:18 | 222.
-04:43 | My checkpoints after the completion of the job were successful. My checkpoints lineage grabbed hierarchy from the Kahase dataset, a moral consideration.
-07:22 | You may like me to think of the language as completion coming off. They put me again to be my job.
-09:51 | 63.
+# Standard recording 33
+# Format: MM:SS | text to speak. [silent] = no voice-over at that point.
+00:11 | Now let's export it.
+00:50 | [silent]
+00:54 | [silent]
+01:30 | Choose the source.
+02:18 | [silent]
+04:43 | Once the job completes, the checkpoints are saved. The lineage graph shows the hierarchy from the dataset to the model.
+07:22 | [silent]
+09:51 | [silent]

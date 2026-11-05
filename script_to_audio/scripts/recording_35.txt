@@ -1,20 +1,20 @@
-# Standard recording 35 (from the Word transcription)
-# Format: MM:SS | text to speak
-00:01 | Sorry, it's a drain model.
-00:09 | The same is Co-production Level 3.
-00:15 | Production level engineers, Pele, honey, approvals easily lead with the.
-00:20 | Yuki Wahabi Agar Hindi production in Gharat Modi kiya tohmari charges village ki one charges charges Maratha 1.15 dollars.
-00:37 | What a license to approve again.
-00:41 | Licenses seem to verify again.
-00:44 | How do you pronounce RA?
-01:04 | Again, you pressure them.
-01:07 | Christian.
-01:18 | Train. Yes, staging allowed.
-01:27 | Avihan production level in Titusville.
-01:30 | Scala inhabit train models with Pilates, with database and data. Safeway train model download.
-01:39 | 2.288 GB.
-01:46 | Tokenizer file? Yeah, configuration file download cursor.
-01:55 | Starting say dataset plus model plus training start key.
-02:08 | Training started, and checkpoints were promoted.
-02:17 | Kit set trained my Model 1, version one, production build in Mandya.
-02:30 | Production. That's fine.
+# Standard recording 35
+# Format: MM:SS | text to speak. [silent] = no voice-over at that point.
+00:01 | Now, let's train a model.
+00:09 | [silent]
+00:15 | To move to production, approvals are needed.
+00:20 | [silent]
+00:37 | Now we approve the license again.
+00:41 | And verify it once more.
+00:44 | [silent]
+01:04 | [silent]
+01:07 | [silent]
+01:18 | Training is allowed in staging.
+01:27 | Now we're at production level.
+01:30 | Here we train models using our data. First, we download the model weights.
+01:39 | That's about 2.3 gigabytes.
+01:46 | Then the tokenizer and configuration files.
+01:55 | Now we combine the dataset and the model, and start training.
+02:08 | Training has started, and checkpoints are being promoted.
+02:17 | Model 1, version one, is trained and moved to production.
+02:30 | And that's it. The model is in production.
