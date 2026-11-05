@@ -39,7 +39,8 @@ python script_to_audio/script_to_audio.py script_to_audio/scripts/recording_31.t
 
 This writes one `.wav` per line and a `timeline.csv` to `output/recording_31/`.
 Re-running only generates lines that are new or edited.
-Options: `--language hi-IN`, `--speaker shubh_en_narration`, `--model bulbul:v3`.
+The default voice is `shubh_en_narration` (model `bulbul:v4-flash`, English).
+Options: `--speaker <voice>`, `--language hi-IN`, `--model bulbul:v3`.
 
 ## 2. Merge video and audio — `merge_video_audio/`
 
@@ -58,3 +59,9 @@ Each clip starts at its script timestamp (plus its recording's start time). A cl
 sped up, at most 1.3x by default (`--max-speedup`), and a warning is printed if
 it still doesn't fit. The video is copied as-is and the narration replaces the
 original audio. Output: `recording_31_narrated.mp4` next to the video.
+
+To get only the narration audio, give the length instead of a video:
+
+```
+python merge_video_audio/merge.py 36:47 output/recording_31/timeline.csv@0:00 output/recording_33/timeline.csv@19:05 output/recording_34/timeline.csv@30:10 output/recording_35/timeline.csv@32:40 --out narration.mp3
+```

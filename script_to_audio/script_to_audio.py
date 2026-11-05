@@ -62,7 +62,7 @@ def main():
     ap.add_argument("--out", help="output folder (default: output/<script name>)")
     ap.add_argument("--language", default="en-IN", help="e.g. en-IN, hi-IN, te-IN (default en-IN)")
     ap.add_argument("--model", default="bulbul:v4-flash")
-    ap.add_argument("--speaker", help="Sarvam voice, e.g. shubh_en_narration (default: model default)")
+    ap.add_argument("--speaker", default="shubh_en_narration", help="Sarvam voice (default shubh_en_narration)")
     args = ap.parse_args()
 
     load_env(REPO / ".env")

@@ -17,9 +17,13 @@ Usage:
         output/recording_33/timeline.csv@19:05 \\
         output/recording_34/timeline.csv@30:10 \\
         output/recording_35/timeline.csv@32:40
+
+Give a length instead of a video to make just the narration audio (an mp3 of that length):
+    python merge_video_audio/merge.py 36:47 output/recording_31/timeline.csv@0:00 ... --out narration.mp3
 """
 import argparse
 import csv
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -56,14 +60,18 @@ def read_parts(specs):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("video", help="screen recording to narrate")
+    ap.add_argument("video", help="screen recording to narrate, or a length like 36:47 to make only the audio track")
     ap.add_argument("timelines", nargs="+", help="timeline.csv, optionally @start time in the video (e.g. @19:05)")
-    ap.add_argument("--out", help="output file (default: <video>_narrated.mp4 next to the video)")
+    ap.add_argument("--out", help="output file (default: <video>_narrated.mp4 next to the video, or narration.mp3)")
     ap.add_argument("--max-speedup", type=float, default=1.3, help="fastest a clip may be played to fit its slot (default 1.3)")
     args = ap.parse_args()
 
-    video = Path(args.video)
-    video_len = duration_of(video)
+    audio_only = re.fullmatch(r"(\d+:)?\d+:\d{2}(\.\d+)?", args.video) is not None
+    if audio_only:
+        video, video_len = None, to_seconds(args.video)
+    else:
+        video = Path(args.video)
+        video_len = duration_of(video)
     parts = read_parts(args.timelines)
 
     # One flat list of clips on the video's clock; a clip may not run into the next part.
@@ -83,7 +91,8 @@ def main():
     if not clips:
         sys.exit("no clips in the timeline(s)")
 
-    inputs, chains, labels = ["-i", str(video)], [], []
+    inputs, chains, labels = ([] if audio_only else ["-i", str(video)]), [], []
+    first = len(inputs) // 2  # input index of the first clip
     for i, clip in enumerate(clips):
         start, length = clip["start"], clip["length"]
         stop, stop_name = clip["limit"], clip["limit_name"]
@@ -97,21 +106,21 @@ def main():
 
         inputs += ["-i", str(clip["file"])]
         steps = ([f"atempo={tempo:.3f}"] if tempo > 1.001 else []) + [f"adelay={round(start * 1000)}:all=1"]
-        chains.append(f"[{i + 1}:a]{','.join(steps)}[c{i}]")
+        chains.append(f"[{first + i}:a]{','.join(steps)}[c{i}]")
         labels.append(f"[c{i}]")
 
-    # Mix all clips without lowering their volume, then pad with silence to the video's length.
+    # Mix all clips without lowering their volume, then pad with silence to the full length.
     chains.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0,apad[narration]")
-    out = Path(args.out) if args.out else video.with_name(f"{video.stem}_narrated.mp4")
-    cmd = [
-        "ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *inputs,
-        "-filter_complex", ";".join(chains),
-        "-map", "0:v", "-map", "[narration]",
-        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(out),
-    ]
+    cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *inputs, "-filter_complex", ";".join(chains)]
+    if audio_only:
+        out = Path(args.out or "narration.mp3")
+        cmd += ["-map", "[narration]", "-t", f"{video_len:.3f}", str(out)]
+    else:
+        out = Path(args.out) if args.out else video.with_name(f"{video.stem}_narrated.mp4")
+        cmd += ["-map", "0:v", "-map", "[narration]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(out)]
     if subprocess.run(cmd).returncode != 0:
         sys.exit("ffmpeg failed")
-    print(f"Wrote {out} ({len(clips)} lines from {len(parts)} part(s) on a {video_len:.1f}s video)")
+    print(f"Wrote {out} ({len(clips)} lines from {len(parts)} part(s), {video_len:.1f}s long)")
 
 
 if __name__ == "__main__":
