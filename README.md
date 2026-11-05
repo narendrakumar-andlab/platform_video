@@ -13,7 +13,7 @@ Install ffmpeg (it includes ffprobe) and make sure it's on your PATH.
 Create a `.env` file in this folder (it's git-ignored) with your key:
 
 ```
-SARVAM_API_KEY=your-key-here
+SARVAM_API_KEY=sk_otk372jz_Bp9XQ6jSJxKwz7dhBNiSgXe4
 ```
 
 Check the key works:
